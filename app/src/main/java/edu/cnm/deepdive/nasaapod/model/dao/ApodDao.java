@@ -66,4 +66,4 @@ public interface ApodDao {
   @Query("SELECT * FROM Apod WHERE apod_id = :id")
   Single<Apod> select(long id);
 
-}
+ }
