@@ -9,7 +9,7 @@
 
   <fragment
     android:id="@+id/settings_fragment"
-    android:name="edu.cnm.deepdive.nasaapod.controller.SettingsActivity$SettingsFrgament"
+    android:name="edu.cnm.deepdive.nasaapod.controller.SettingsActivity$SettingsFragment"
     android:layout_width="match_parent"
     android:layout_height="match_parent"/>
 

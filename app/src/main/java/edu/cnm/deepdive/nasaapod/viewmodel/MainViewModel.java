@@ -82,7 +82,7 @@ public class MainViewModel extends AndroidViewModel implements LifecycleObserver
     pending.add(
         repository.get(date)
             .subscribe(
-                apod::postValue,
+                value -> apod.postValue(value),
                 throwable::postValue
             )
     );
